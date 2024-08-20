@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    direction: rtl;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #00796b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.features {
+    padding: 20px;
+}
+
+.features h2 {
+    font-size: 22px;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.gallery h2 {
+    font-size: 22px;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    max-width: 45%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #00796b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#downloadButton {
+    background-color: #ffa726;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#downloadButton:hover {
+    background-color: #fb8c00;
+}
